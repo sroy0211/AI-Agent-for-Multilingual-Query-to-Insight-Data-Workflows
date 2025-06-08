@@ -37,11 +37,17 @@
 ## 📦 App Architecture
 
 User Input (Text / Language Selection)
+
 ↓
+
 LLM Agent → SQL Generator → BigQuery Data Fetcher
+
 ↓
+
 Data Visualizer → Chart Generator → Excel Data Exporter
+
 ↓
+
 Gradio UI Display (Multilingual Output)
 
 ---
